@@ -12,9 +12,9 @@ function Email() {
       }}
     >
       <a
-        href="mailto:lohitkolluri@gmail.com"
+        href="jamesedwards2001.tz@gmail.com"
         className="email-link"
-        aria-label="Email Lohit Kolluri"
+        aria-label="Email James Edward"
       >
         lohitkolluri@gmail.com
       </a>

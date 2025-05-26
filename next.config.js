@@ -4,6 +4,8 @@ const nextConfig = {
 
   // Optimize images
   images: {
+    domains: ['raw.githubusercontent.com'],
+    unoptimized: true, // Disable Next.js image optimization
     remotePatterns: [
       {
         protocol: 'https',

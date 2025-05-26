@@ -40,7 +40,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 0.8 }}
         >
-          Lohit Kolluri.
+          James Edward.
         </motion.h2>
         <motion.h3
           className="hero-title-large hero-title-sub"
@@ -68,7 +68,7 @@ function Hero() {
           <Button
             text="Check out my LinkedIn"
             link="https://linkedin.com/in/kollurilohit"
-            aria-label="LinkedIn profile of Lohit Kolluri"
+            aria-label="LinkedIn profile of James Edward"
           />
         </motion.div>
       </motion.div>

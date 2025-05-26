@@ -9,21 +9,25 @@ interface AboutText {
 
 const mobileText: AboutText = {
   intro:
-    'Hey there! I\'m Lohit Kolluri, a DevOps-first Full Stack Developer passionate about cloud-native systems and intelligent automation.',
+    'Hey there! I\'m James Edward, a DevOps-first Full Stack Developer passionate about cloud-native systems and intelligent automation.',
   experience:
-    'Currently pursuing B.Tech at SRM Institute of Science and Technology, I\'ve built scalable architectures at Apollo Tyres R&D, supporting 200+ concurrent simulations with 40% performance boost.',
+    'Currently pursuing BIT(Bachelor of Information Technology) at NIT(National Instute of Technology ) in Tanzania, I\'ve built scalable architectures at Apollo Tyres R&D, supporting 200+ concurrent simulations with 40% performance boost.',
 };
 
 const desktopText: AboutText = {
   intro:
-    'Hey there! I\'m Lohit Kolluri, a DevOps-first Full Stack Developer with a keen interest in cloud-native systems and intelligent automation. I specialize in building scalable infrastructures, optimizing CI/CD pipelines, and integrating ML systems into robust production environments.',
+    'Hey there! I\'m James Edward, a DevOps-first Full Stack Developer with a keen interest in cloud-native systems and intelligent automation. I specialize in building scalable infrastructures, optimizing CI/CD pipelines, and integrating ML systems into robust production environments.',
   experience:
     'Currently pursuing a B.Tech in Computer Science Engineering at SRM Institute of Science and Technology, I bring hands-on experience with tools and platforms across the DevOps, Cloud, and ML stack. At Apollo Tyres R&D, I built a scalable backend architecture using Django and PostgreSQL to support 200+ concurrent simulations, increasing performance by 40%. I also automated simulation task queues and delivered real-time dashboards with Chart.js for 300+ engineering projects. I\'ve deployed cloud-native applications using Docker, Kubernetes, and serverless technologies like Vercel and AWS Lambda. My projects include an NLP-to-SQL Converter, and FlaskPost, a mass mailer SaaS with serverless backend that cut infrastructure costs while boosting engagement.',
 };
 
 const technologies = [
   'Docker',
-  'Kubernetes',
+  'Git',
+  'Django',
+  'Spring Boot',
+  'Flutter',
+  'MySQL',
   'FastAPI',
   'Azure',
   'PostgreSQL',
@@ -95,18 +99,18 @@ function About() {
         <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
-          <div className="about-grid-photo-container">
+            <div className="about-grid-photo-container">
             <Image
-              src="/etc/image.jpeg"
-              alt="Lohit Kolluri - DevOps & Full Stack Developer"
+              src="https://raw.githubusercontent.com/James-Edward-Ntigwimbugwa/my-portfolio/main/src/assets/profile.jpeg"
+              alt="James Edward - DevOps & Full Stack Developer"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
-              objectFit="cover"
+              style={{ objectFit: 'cover' }}
               className="rounded-lg"
-              aria-label="Profile picture of Lohit Kolluri"
+              aria-label="Profile picture of James Edward"
             />
-          </div>
+            </div>
         </div>
       </div>
     </motion.div>

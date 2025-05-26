@@ -51,7 +51,7 @@ const Contact = () => {
           from_name: formData.name,
           reply_to: formData.email,
           message: formData.message,
-          to_name: 'Lohit Kolluri',
+          to_name: 'James Edward',
         },
       );
 

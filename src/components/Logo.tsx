@@ -1,7 +1,7 @@
 function Logo() {
   return (
     <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-      <title>Lohit Kolluri</title>
+      <title>James  Edward</title>
       <defs>
         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" style={{ stopColor: '#8892AF', stopOpacity: 1 }} />

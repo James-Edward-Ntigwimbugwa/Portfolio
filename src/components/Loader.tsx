@@ -55,7 +55,7 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
             variants={svgVariants}
             custom={0}
           >
-            <title>Lohit Kolluri</title>
+            <title>James Edward</title>
             <defs>
               <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style={{ stopColor: '#8892AF', stopOpacity: 1 }} />
