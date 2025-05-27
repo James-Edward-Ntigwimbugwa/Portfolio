@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Set base path and asset prefix
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio/',
+  basePath: '',
+  assetPrefix: '/',
   // Optimize images
   images: {
     domains: ['raw.githubusercontent.com'],

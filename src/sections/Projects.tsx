@@ -13,7 +13,7 @@ function Projects() {
         'A natural language to SQL query converter that transforms text input into structured SQL queries for database execution, streamlining database interactions through intuitive language processing.',
       projectTech: ['Streamlit', 'Azure OpenAI', 'SQLite3', 'Altair'],
       projectExternalLinks: {
-        github: 'https://github.com/lohitkolluri/NLP2SQL',
+        github: 'https://github.com/James-Edward-Ntigwimbugwa/eBusiness',
         externalLink: 'https://nlp2sql.streamlit.app/',
       },
     },
@@ -25,7 +25,7 @@ function Projects() {
         'A FastAPI-powered mass email platform featuring SMTP configuration, CSV recipient management, and HTML template customization with live preview functionality.',
       projectTech: ['FastAPI', 'REST API', 'Jinja2', 'Fast Mail'],
       projectExternalLinks: {
-        github: 'https://github.com/lohitkolluri/FlaskPost',
+        github: 'https://github.com/James-Edward-Ntigwimbugwa/eBusiness',
         externalLink: 'https://github.com/lohitkolluri/FlaskPost',
       },
     },
