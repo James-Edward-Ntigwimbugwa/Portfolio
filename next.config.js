@@ -2,13 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // Set base path and asset prefix
-  basePath: '',
-  assetPrefix: '/',
   // Optimize images
   images: {
     domains: ['raw.githubusercontent.com'],
-    unoptimized: true, // Disable Next.js image optimization
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -17,7 +14,6 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    // Optimize image loading
     minimumCacheTTL: 60,
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -26,26 +22,18 @@ const nextConfig = {
 
   // Enable compiler optimizations
   compiler: {
-    // Remove console.log in production
     removeConsole: process.env.NODE_ENV === 'production',
-    // Remove react-dev-tools in production
     reactRemoveProperties:
       process.env.NODE_ENV === 'production' ? { properties: ['^data-test'] } : false,
   },
 
-  // Enable experimental features for better performance
+  // Enable experimental features
   experimental: {
-    // Enable optimizing third-party scripts
     optimizePackageImports: ['framer-motion', 'lucide-react'],
-    // Optimize CSS
-    optimizeCss: true,
-    // Enable scroll restoration
-    scrollRestoration: true,
   },
 
   // Configure webpack for better performance
   webpack: (config, { dev, isServer }) => {
-    // Optimize production builds
     if (!dev) {
       config.optimization = {
         ...config.optimization,
@@ -110,16 +98,12 @@ const nextConfig = {
     ];
   },
 
-  // Enable page caching for better performance
-  generateEtags: true,
-
-  // Compress responses
-  compress: true,
-
-  // Increase build output details
+  // Keep standalone output for Vercel
   output: 'standalone',
 
-  // Disable powered by header
+  // Other optimizations
+  generateEtags: true,
+  compress: true,
   poweredByHeader: false,
 };
 
