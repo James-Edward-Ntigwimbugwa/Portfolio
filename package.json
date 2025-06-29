@@ -4,12 +4,12 @@
   "homepage": "https://https://github.com/James-Edward-Ntigwimbugwa.github.io/Portfolio/",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "pre-deploy": "next build && next export",
-    "deploy": "gh-pages -d out",
-    "postinstall": "npm run pre-deploy",
-    "start": "next start"
+  "dev": "next dev",
+  "build": "next build",
+  "pre-deploy": "next build",
+  "deploy": "gh-pages -d out",
+  "postinstall": "npm run pre-deploy",
+  "start": "next start"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
